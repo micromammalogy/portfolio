@@ -1,0 +1,47 @@
+{
+  "_comment": "SAMPLE schema only — safe to publish. The REAL config (with your titles, blurbs, and private `sources` repo names) never lives in this repo; its contents are stored in the encrypted GitHub Actions secret PORTFOLIO_CONFIG. See SETUP.md.",
+  "docTitle": "Project Portfolio",
+  "owner": "Your Name",
+  "githubLogin": "your-github-login",
+  "headline": "Your role @ Your Company — one line about your domain.",
+  "intro": "A running log of work I've delivered, kept current from my GitHub activity.",
+  "sections": [
+    {
+      "title": "Selected professional work",
+      "groups": [
+        {
+          "label": "Apps built",
+          "items": [
+            {
+              "title": "Example app — Platform",
+              "stack": ["Framework", "Language"],
+              "dateLabel": "Q1 2026",
+              "blurb": "One or two sentences describing what you built.",
+              "liveStats": false,
+              "sources": ["your-org/example-repo"]
+            }
+          ]
+        },
+        { "label": "Features shipped", "items": [] },
+        { "label": "Bug fixes", "items": [] }
+      ]
+    },
+    {
+      "title": "Internal tools & side projects",
+      "groups": [
+        {
+          "label": null,
+          "items": [
+            {
+              "title": "Example personal project",
+              "stack": ["Framework"],
+              "blurb": "Description of a personal project.",
+              "liveStats": true,
+              "sources": ["your-login/example-personal-repo"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

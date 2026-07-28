@@ -1,0 +1,8 @@
+# Never commit the real config — it holds private repo names / the repo→title mapping.
+# This is a BACKSTOP only. The real config must live OUTSIDE this working tree entirely
+# (e.g. ../portfolio-secret/). See SETUP.md.
+portfolio.config*.json
+!portfolio.config.example.json
+*.SECRET.json
+*.SECRET.*
+node_modules/
